@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Neucha:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="div">
+      <div class="main-section-div">
+        <div class="bg-div"></div>
+        <img class="illustration-icon" alt="" src="public/illustration.svg" />
+        <div class="categories-div">
+          <button class="frame-button"><div class="div1">Главная</div></button
+          ><button class="frame-button1" id="frameButton1">
+            <div class="div1">Поиск исполнителя</div></button
+          ><button class="frame-button2" id="frameButton2">
+            <div class="div1">Поиск заказчика</div></button
+          ><button class="frame-button3">
+            <div class="div1">Контакты</div>
+          </button>
+        </div>
+        <button class="profile-button">
+          <img
+            class="rectangle-icon"
+            alt=""
+            src="public/rectangle-2@2x.png"
+          /><img
+            class="iconlytwo-tonearrow-down-2"
+            alt=""
+            src="public/iconlytwotonearrow--down-2.svg"
+          />
+        </button>
+        <div class="main-screen-div">
+          <img
+            class="illustration-icon1"
+            alt=""
+            src="public/illustration1.svg"
+          />
+          <div class="offer-div">
+            <div class="h1-header-div">
+              <img class="ellipse-icon" alt="" src="public/ellipse-15.svg" />
+              <div class="div5">3д печать. Здесь и сейчас</div>
+            </div>
+            <div class="div6">
+              <span class="txt-span"
+                ><p class="p">Уникальная фриланс биржа 3д печати.</p>
+                <p class="p1">
+                  Просто найди испольнителя или стань им сам.
+                </p></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="div7">Новое объявление</div>
+        <button class="request-button" id="requestButton">
+          <div class="bg-div1"></div>
+          <div class="div8">Хочу 3д печать</div></button
+        ><button class="request-button1" id="requestButton1">
+          <div class="bg-div1"></div>
+          <div class="div8">Хочу заработать</div></button
+        ><a class="vacant" href="./component4.html"
+          ><div class="bg-div3"></div>
+          <b class="b">Деталь для мясорубки</b>
+          <div class="cust-div">
+            <img class="ellipse-icon1" alt="" src="public/ellipse-18@2x.png" />
+            <div class="div10">Алексей</div>
+          </div>
+          <div class="moulinex-hv1">
+            Сломалась шестренка на мясорубке Moulinex HV1. Необходимо
+            смоделировать и распечатать...
+          </div>
+          <div class="price-div">
+            <div class="div11">от 500руб /деталь</div>
+          </div>
+          <div class="location-div">
+            <img class="vector-icon" alt="" src="public/vector.svg" />
+            <div class="div12">Краснодар</div>
+          </div></a
+        >
+      </div>
+      <div class="footers-div">
+        <div class="frame-div">
+          <div class="copyright-div">Copyright © 2022 3dfreelance.com</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var frameButton1 = document.getElementById("frameButton1");
+      if (frameButton1) {
+        frameButton1.addEventListener("click", function (e) {
+          window.location.href = "./component1.html";
+        });
+      }
+      
+      var frameButton2 = document.getElementById("frameButton2");
+      if (frameButton2) {
+        frameButton2.addEventListener("click", function (e) {
+          window.location.href = "./component2.html";
+        });
+      }
+      
+      var requestButton = document.getElementById("requestButton");
+      if (requestButton) {
+        requestButton.addEventListener("click", function (e) {
+          window.location.href = "./component1.html";
+        });
+      }
+      
+      var requestButton1 = document.getElementById("requestButton1");
+      if (requestButton1) {
+        requestButton1.addEventListener("click", function (e) {
+          window.location.href = "./component2.html";
+        });
+      }
+      </script>
+  </body>
+</html>
